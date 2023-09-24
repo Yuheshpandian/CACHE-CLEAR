@@ -18,6 +18,7 @@ target_4 ="Recycle Bin\\"
 
 console = Console()
 
+console.print("CACHE-CLEAR-WIN11",style="bold magenta")
 
 print("\n\n\n")
 console.print("clearing cache in the 'temp' folder!",style="bold yellow")
@@ -64,3 +65,4 @@ t.sleep(0.5)
 print("")
 console.print("Every possible cache and useless files has been deleted. Hope you enjoy your fast laptop (^_~) ", style="bold green ")
 print("")
+
