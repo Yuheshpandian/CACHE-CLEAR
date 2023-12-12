@@ -15,11 +15,12 @@ target_2 = "C:\\Users\\User\\AppData\\Local\\Temp\\"
 target_3 = "C:\\Windows\\Prefetch\\"
 target_4 ="Recycle Bin\\"
 
-
+# creation of rich console
 console = Console()
 
 console.print("CACHE-CLEAR-WIN11",style="bold magenta")
 
+#clears cache in temp folders
 print("\n\n\n")
 console.print("clearing cache in the 'temp' folder!",style="bold yellow")
 t.sleep(0.5)
@@ -52,6 +53,7 @@ t.sleep(0.5)
 
 print("\n\n\n")
 
+#clears cache in RECYCLE BIN
 console.print("Clearing 'RECYCLE BIN' ",style="bold yellow")
 try:
     winshell.recycle_bin().empty(confirm=False, show_progress=True, sound=True)
@@ -66,3 +68,4 @@ print("")
 console.print("Every possible cache and useless files has been deleted. Hope you enjoy your fast laptop (^_~) ", style="bold green ")
 print("")
 
+# Code Ends
