@@ -1,3 +1,4 @@
+
 # CACHE-CLEAR
 ## Want a fast and productive computer. But cant get it due to cache and unwanted files 🗑️. Try cache-clear, a reliable cache cleaner 🚮 that removes all unnecessary files.
 
@@ -9,6 +10,4 @@
 - cleans Recycle bin🗑️
 
 ## Compatibility
-> Works only on Windows OS especially in Windows 11.Sorry Mac and Linux users.
-
-
+>> Works only on Windows OS especially in Windows 11.Sorry Mac and Linux users.
